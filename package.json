@@ -1,0 +1,11 @@
+{
+  "name": "jgcg-listing",
+  "version": "0.0.1",
+  "description": "A simple house listing.",
+  "main": "server.js",
+  "author": "Jarob Gilliam <jarobgilliambiz@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.0"
+  }
+}
