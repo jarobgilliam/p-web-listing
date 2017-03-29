@@ -4,11 +4,31 @@
   <meta charset="UTF-8">
   <title>Photos -- Robin Ln.</title>
   <link rel='stylesheet' type='text/css' href='styles.css' />
+  <link rel='stylesheet' type='text/css' href='modalStyle.css' />
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <script src='app.js'></script>
+  <link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css'/>
 </head>
 <body>
+
+  <style>
+    body {
+      font-family: 'Oswald', sans-serif;
+    }
+
+    .photo {
+      width: 90%;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: black;
+      font-size: 50px;
+      margin-bottom: 50px;
+    }
+
+  </style>
 
   <div class='navbar'>
     <a class='navitem' href='index.html'>Home</a>
@@ -17,10 +37,65 @@
   </div>
 
   <div class='main'>
-    <h2>Photos Here</h2>
+    <h1>Photos:</h1>
+
+    <div class='row'>
+      <div class='col-sm-6'>
+        <img class='photo' src='img/exterior/back-porch.jpg'/>
+      </div>
+      <div class='col-sm-6'>
+        <img class='photo' src='img/exterior/back-wide-left.jpg'/>
+      </div>
+    </div>
+
+    <div class='row'>
+      <div class='col-sm-6'>
+        <img class='photo' src='img/exterior/backyard1.jpg'/>
+      </div>
+      <div class='col-sm-6'>
+        <img class='photo' src='img/exterior/front-porch.jpg'/>
+      </div>
+    </div>
+
+    <div class='row'>
+      <div class='col-sm-6'>
+        <img class='photo' src='img/exterior/front-right.jpg'/>
+      </div>
+      <div class='col-sm-6'>
+        <img class='photo' src='img/exterior/front-wide-left.jpg'/>
+      </div>
+    </div>
+
+    <div class='row'>
+      <div class='col-sm-6'>
+        <img class='photo' src='img/exterior/front-wide-right.jpg'/>
+      </div>
+      <div class='col-sm-6'>
+        <img class='photo' src='img/exterior/garage-exterior.jpg'/>
+      </div>
+    </div>
+
+    <div class='row'>
+      <div class='col-sm-6'>
+        <img class='photo' src='img/interior/living-room-dining.jpg'/>
+      </div>
+      <div class='col-sm-6'>
+        <img class='photo' src='img/interior/kitchen-left2.jpg'/>
+      </div>
+    </div>
+
+    <div class='row'>
+      <div class='col-sm-6'>
+        <img class='photo' src='img/interior/kitchen-right.jpg'/>
+      </div>
+      <div class='col-sm-6'>
+        <img class='photo' src='img/interior/living-room-back.jpg'/>
+      </div>
+    </div>
 
   </div>
 
   
+<script src='app.js'></script>
 </body>
 </html>

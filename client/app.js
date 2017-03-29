@@ -1,3 +1,2 @@
-document.onload = function() {
-  
-}
+console.log('meeerr')
+$('.modal').css('display', 'block');
